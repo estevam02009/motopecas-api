@@ -51,5 +51,4 @@ class Pedido extends Model
                 $pedido->numero_pedido = 'PED-' . date('Y') . '-' . str_pad(static::max('id') + 1, 6, '0', STR_PAD_LEFT);
             }
         });
-    }
 }
